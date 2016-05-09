@@ -35,16 +35,3 @@ dependencies {
     compile "com.google.inject:guice:3.0"
 
 }
-
-buildscript {
-  repositories {
-    maven {
-      url "https://plugins.gradle.org/m2/"
-    }
-  }
-  dependencies {
-    classpath "gradle.plugin.org.jenkins-ci.tools:gradle-jpi-plugin:0.17.0"
-  }
-}
-
-apply plugin: "org.jenkins-ci.jpi"
